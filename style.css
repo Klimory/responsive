@@ -43,3 +43,45 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* ==== HELPER COLORS FOR LAYOUT ==== */
+
+.header {
+	background-color: rgba(255, 248, 53, .3);
+}
+
+.main{
+	background-color: rgba(140, 96, 255, .3);
+}
+
+.article {
+	background-color: rgba(255, 0, 0, .3);
+}
+/* ==== BASE STYLES ==== */
+
+body {
+    font-family: Merriweather, 'Times New Roman', serif;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    color: #333;
+  }
+  
+  h1,
+  h2 {
+    font-family: 'Open Sans', Arial, sans-serif;
+  }
+  h1 {
+    font-size: 1,8rem;
+  }
+  h2 {
+    font-size: 1,6rem;
+    color: #e5127d;
+  }
+  .header p {
+    font-size: 1,125rem;
+    letter-spacing: 0,125rem;
+    color: #8c8e9b;
+  }
+  .picture {
+	width: 100%;
+}
+
